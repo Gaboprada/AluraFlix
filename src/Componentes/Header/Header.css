@@ -1,3 +1,52 @@
 .img-header{
     width: 100%;
+    border-bottom: 2px solid #333;
   }
+
+  .cabecera{
+    width: 100%;
+    height: 54px;
+    background-color: #262626;
+    border-bottom: 2px solid #333;
+  }
+
+  .alura-logo{
+    width: 10%;
+    float:left;
+    padding: 15px ;
+  }
+
+  .botones-cabecera{
+    float: right;
+    padding: 15px 15px;
+  
+
+   
+  }
+
+  .boton-home{
+    margin-right: 15px;
+    cursor: pointer;
+    border-radius: 2px;
+    border-color: #3434f9;
+    color: #3434f9;
+    background-color: #262626;
+   
+    
+    
+  }
+
+  .boton-nuevo-video {
+    cursor: pointer;
+    border-radius: 2px;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #262626;
+  }
+
+  .boton-nuevo-video:hover,.boton-home:hover {
+    border-style: solid;
+    border-color: #c7b811;
+    color: #c7b811;
+  }
+
